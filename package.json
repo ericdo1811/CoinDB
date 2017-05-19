@@ -1,0 +1,24 @@
+{
+  "name": "coindb",
+  "version": "0.0.1",
+  "description": "Eine Anwednung zum Verwalten deiner Münzsammlung. Dieses Porgramm benötigt keine weitere Zusatzsoftware. Es wird wie eine ganz normale Desktopanwendung ausgeführt.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ericdo1811/projekt.git"
+  },
+  "keywords": [
+    "CoinDB",
+    "Coins",
+    "Coin"
+  ],
+  "author": "Eric Dornau",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/ericdo1811/projekt/issues"
+  },
+  "homepage": "https://github.com/ericdo1811/projekt#readme"
+}

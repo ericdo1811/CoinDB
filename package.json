@@ -20,5 +20,7 @@
   "bugs": {
     "url": "https://github.com/ericdo1811/projekt/issues"
   },
-  "homepage": "https://github.com/ericdo1811/projekt#readme"
+  "homepage": "https://github.com/ericdo1811/projekt#readme",
+    "dependencies": {
+    "sqlite3": "2.2.7"} 
 }

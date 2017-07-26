@@ -1,0 +1,191 @@
+body
+{
+    font-family: Arial;
+    margin:0px;
+    padding:0px;
+    overflow-x: hidden;
+}
+li
+{
+  cursor: pointer;
+}
+#navigation ul
+{
+    widht: 140px;
+    float: left;
+    list-style-type: none;
+}
+#navigation
+{
+    position: absolute;
+    height: 90px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100%;
+    color:white;
+    background-color:#3333FF;
+    padding:0 25px;;
+    line-height: 1.5;
+    float: left;
+}
+#navigation ul ul
+{
+    position: absolute;
+    display:none;
+}
+
+#navigation ul  li
+{
+    display: inline;
+    margin:10px;
+    padding:15px;
+}
+
+#navigation ul  li:hover
+{
+    border:3px solid white;
+    margin:7px;
+}
+
+#navigation ul li ul
+{
+    font-size: 20;
+    position: absolute;
+    right: 570px;
+    top: 57px;
+    color: #3333FF;
+    margin:0px;
+    padding: 10px;
+}
+
+#navigation ul li:hover ul
+{
+    display: block;
+}
+
+#navigation ul li ul:hover
+{
+    font-weight: 800;
+}
+#suche
+{
+    position: absolute;
+    right:10px;
+    border: 0px;
+    top:-10px;
+}
+.navi
+{
+    background-color:#3333FF;
+    margin: 10px;
+    padding: 10px;
+    display:inline ;
+    border: 0px;
+    color:white;
+    font-size: 16;
+}
+.1naviul
+{
+    position: relative;
+    left: 550px;
+    top:-10px;
+    margin: 10px;
+    padding: 10px;
+    display:block ;
+}
+
+.1navi:hover
+{
+    margin: 7px;
+    border:3px solid white;
+}
+.leer
+{
+ height: 10px;
+}
+
+.1naviul:hover
+{
+    visibility: visible;
+}
+#suchtext
+{
+    background-color:#3333FF;
+    position: absolute;
+    float: right;
+    top: -55px;
+    right: -460px;
+    width: auto;
+    border: 0;
+    color:white;
+    height: 30px;
+    text-align: center;
+    font-size: 16;
+}
+#suchtext:hover
+{
+    background-color: white;
+    color: black;
+}
+
+#suchbutton
+{
+    position: absolute;
+    right: -495px;
+    top: -60px;
+    color: white;
+    border: 0px;
+    background-color:#3333FF;
+    font-size:2em;
+}
+#suchea
+{
+    position:absolute;
+    right:560px;
+    top: 85px;
+}
+#suchea:hover #suchtext
+{
+    background-color: white;
+    color: black;
+}
+
+.leer
+{
+    height: 100px;
+}
+
+#submit
+{
+    background-color: white;
+    color: red;
+    font-size: 20px;
+    font-weight: 700;
+    border: 2px solid red;
+}
+
+#submit:hover
+{
+    outline:2px solid red;
+}
+
+#edit
+{
+    border: 2px solid #0174DF;
+    background-color: white;
+    font-size: 20px;
+    font-weight: 900;
+    color: #0174DF;
+}
+
+#edit:hover
+{
+    outline:2px solid #0174DF;
+}
+
+#bild
+{
+    width: 150px;
+    height: 150px;
+}

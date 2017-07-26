@@ -1,0 +1,298 @@
+html,body
+{
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  width: 100%;
+  background-color: #258e25;
+  font-size: 19px;
+  font-family: "Segoe UI",Arial,sans-serif;
+}
+
+.container
+{
+  z-index: 0;
+  width: 310px;
+  height: 510px;
+  position: absolute;
+  perspective: 800px;
+  margin: 15px;
+  margin-top: 70px;
+}
+
+.card
+{
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background-color:white;
+  box-shadow: 6px 10px 6px -6px rgba(0,0,0,0.37);
+  transform-style: preserve-3d;
+  transition: all 0.5s ease-in;
+  border-radius: 55px;
+  text-align: center;
+}
+
+.font
+{
+  z-index: 1;
+  position: absolute;
+  backface-visibility: hidden;
+}
+
+.back
+{
+  top: -19px;
+  width: 100%;
+  height: 100%;
+  display: none;
+  z-index: 0;
+  position: relative;
+  transform: rotateY(-180deg);
+  background-color: white;
+  border-bottom-right-radius: 55px;
+  border-bottom-left-radius: 55px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  text-align: center;
+}
+
+.flipped
+{
+  transform: rotateY(-180deg);
+}
+
+#more
+{
+  cursor:pointer;
+  color: #004d00;
+}
+
+#more:hover
+{
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.card:hover
+{
+  position: fixed;
+  -webkit-animation-name: animation;
+  -webkit-animation-duration: 300ms;
+  -webkit-animation-iteration-count: 1;
+}
+
+@-webkit-keyframes animation
+{
+   0%  { -webkit-transform: rotateY(0deg); }
+   5%  { -webkit-transform: rotateY(-5deg); }
+   10%  { -webkit-transform: rotateY(-10deg); }
+   50%  { -webkit-transform: rotateY(-10deg); }
+  }
+
+.card_delete
+{
+  transform-origin: bottom left;
+  transform: translateX(-10%) rotate(-180deg);
+}
+
+.noanimation
+{
+  -webkit-animation-name: none !important;
+}
+
+.image
+{
+  position: absolute;
+  float: inherit;
+  z-index: 1px;
+  left: 60px;
+  top: 15px;
+  width: 180px;
+  height: 180px;
+}
+
+.div_image
+{
+  position: absolute;
+  top: -10;
+  left: -10px;
+  height: 200px;
+  width: 290px;
+  margin: 0px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin: 10px;
+  background-image: url("../../images/cloth.jpg");
+  box-shadow: 2px 10px 6px 2px rgba(0,0,0,0.16);
+  border-radius: 25px;
+
+}
+
+.card_content
+{
+  position: absolute;
+  width: 285px;
+  height: 290px;
+  top: 210px;
+  border: 0px;
+}
+
+h1
+{
+  font-size: 37px;
+  font-style: italic;
+  font-weight: lighter;
+  margin: 0px;
+}
+
+.button
+{
+  position: relative;
+  width: 115px;
+  height: 50px;
+  border-radius: 15px;
+  border: 0px;
+  color: white;
+  background-color: #004d00;
+  font-size:21px;
+  font-family: "Segoe UI",Arial,sans-serif;
+  outline: 0px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.button:hover
+{
+  border: 2px solid #004d00;
+  color: #004d00;
+  background-color: white;
+}
+
+.closebutton
+{
+  position: absolute;
+  top: 14px;
+  left: 270px;
+  width: 30px;
+  height: 30px;
+  color: white;
+  background-color:#004d00;
+  font-size: 23px;
+  border-radius: 7px;
+  border: 0px;
+  text-align: center;
+  outline: 0;
+}
+
+.closebutton:hover
+{
+    color: #004d00;
+    background-color: white;
+    border: 2px solid #004d00;
+}
+
+#close_zoomin
+{
+  width: 60px;
+  height: 60px;
+  font-size: 40px;
+  position: absolute;
+  top: 880px;
+  left: 650px;
+}
+
+#close_zoomin:hover
+{
+  color: #004d00;
+  background-color: white;
+  border: 2px solid #004d00;
+}
+
+.card_zoomin
+{
+  height: 1000px;
+  width: 800px;
+}
+
+.card_zoomin_content
+{
+  display: none;
+  position: absolute;
+  width: 700px;
+  height: 900px;
+  margin: 50px;
+}
+
+#edit
+{
+  margin-left: 32px;
+}
+
+.card_table_edit
+{
+  width: 100%;
+  font-size: 35px;
+  float: left;
+  margin-left: -30px;
+  text-align: center;
+  transition: all 3s ease-in-out;
+}
+
+.card_table_edit_td
+{
+  position: relative;
+  padding: 5px;
+  background-color: #006600;
+  color: white;
+  border-radius: 15px;
+  left: 110px;
+}
+
+.text_edit
+{
+  height: 50px;
+  font-size: 35px;
+  width: 350px;
+  border-radius: 15px;
+  border: 2px solid #004d00;
+  outline: 0px;
+  padding-left: 80px;
+}
+
+.text_edit_click
+{
+  -webkit-animation-name: table_click;
+  -webkit-animation-duration: 100ms;
+  -webkit-animation-iteration-count: 1;
+  transform: translateX(-70px);
+}
+
+.text_edit_unclick
+{
+  -webkit-animation-name: table_unclick;
+  -webkit-animation-duration: 100ms;
+  -webkit-animation-iteration-count: 1;
+  transform: translateX(0px);
+}
+.td_none
+{
+  height: 20px;
+}
+@-webkit-keyframes table_click
+{
+   0%  { -webkit-transform: translateX(-25px); }
+   30%  { -webkit-transform: translateX(-30px); }
+   60%  { -webkit-transform: translateX(-50px); }
+   100%  { -webkit-transform: translateX(-70px); }
+  }
+
+  @-webkit-keyframes table_unclick
+  {
+     0%  { -webkit-transform: translateX(-70px); }
+     30%  { -webkit-transform: translateX(-50px); }
+     60%  { -webkit-transform: translateX(-30px); }
+     100%  { -webkit-transform: translateX(-25px); }
+    }

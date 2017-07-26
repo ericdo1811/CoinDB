@@ -1,0 +1,42 @@
+body
+{
+    background-color: white;
+    font-family: arial;
+      text-align: center;
+}
+
+#table
+{
+    width: 100px;
+    border-spacing: 0px;
+    padding-right: 20px;
+    text-align: center;
+    margin:auto;
+    
+}
+th
+{
+    padding-right: 20px;
+    font-size: 18px;
+    background-color: white;
+    color: cornflowerblue;
+    width: 5%;
+    margin-bottom: 30px;
+}
+
+tr
+{
+    font-size: 19px;
+    background-color: white;
+}
+tr:nth-child(even)
+{
+    border: 0px;
+    background-color: #80bfff;
+}
+
+td
+{
+    position: relative;
+    padding: 10px;
+}

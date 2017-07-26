@@ -1,0 +1,274 @@
+<html>
+<head>
+    <title>Tutorial</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <link href="tutorial.css" type="text/css" rel="stylesheet">
+
+</head>
+
+<body>
+    <section class="module parallax parallax">
+        <div class="container">
+            <h1>Tutorial</h1>
+            <button class="button" id="anlegen"><a class="text" href="#hier">Anlegen</a></button>
+            <button class="button" id="anzeigen"><a class="text" href="#hier2">Anzeigen</a></button>
+            <button class="button" id="funktionen"><a class="text" href="#hier3">geplante Features</a></button>
+        </div>
+    </section>
+
+    <section class="module inhalt">
+        <div class="container">
+            <h2>Erste Schritte mit der Münzsammlung</h2>
+            <p>In diesem kleinen Tutorial sollen die Grundfunktionen und geplante Features erklärt und besprochen werden.<br> Nacheinander werden die wichtigsten Bereiche erklärt wie zum Beispiel Anlegen und Bearbeiten. <br>Die Website ist in 2 große Abschnitte unterteilt. Ein Bereich heißt Anlegen und der andere ist Anzeigenbereich. Sie unterscheiden sich grundsätzlich in den Farbkombinationen. Der Azeigenbereich bekam verschiedene Blautöne und der Anlegenbereich wurde grünlich gehalten.<br> Außerdem sind für die Zukunft ein paar größere Sachen wie das Drucken und ein paar statistische Auswertungen geplant. <br>Diese Punkte werden noch in "Zukünftige Sachen" aufgeführt. </p>
+        </div>
+    </section>
+
+         <a name="hier"></a>
+    <section class="module parallax parallax-1">
+        <div class="container">
+            <h1>Anlegen</h1>
+        </div>
+    </section>
+
+    <section class="module inhalt">
+        <div class="container">
+            <p>In diesen Bereich können die benötigten Einträge in den Tabellen angelegt werden. Das wären zum Beispie neuen Münzen, Gewichte                    oder Münzserien. In diesem Tutorial wird einzeln auf die jeweiligen Abschnitte der Website eingegangen und diese werden kurz                         erklärt.<br>Einträge werden mit einem Klick auf <img src="best%C3%A4tigen.JPG" class="icon"> gespeichert.</p>
+        </div>
+    </section>
+    <section class="module parallax parallax-2">
+        <div class="container">
+            <h1>Münze anlegen</h1>
+        </div>
+    </section>
+
+        <section class="module inhalt">
+        <div class="container">
+            <h2>Anlegen einer Münze</h2>
+            <p>In dem ertsten Textfeld kann man der neuen Münze eine Bezeichnung geben. Das zweite Feld ist ein Auswahlfeld wo man
+                die gespeicherten Münzserien auswählen kann.Als Nächstes gibt es die Möglichkeit das Material auszusuchen. Bei den
+            vier darauf folgenden Feldern wird abgeprüft, ob eine Zahl rein geschrieben wurde. Trifft das nicht zu, dann wird eine
+            entsprechender Hinweis ausgegeben und die Eingaben werden nicht gespeichert. Der letzte Schritt ist das Auswählen
+                der eingespeicherten Länder.
+                <br><br><br>
+                <b>Falls sie eine Münze mit neuen Einträgen in zum Beispiel Länder oder Material anlegen, ist es zu empfehlen die Münze
+                    zuletzt hinzuzufügen.</b>
+            </p>
+        </div>
+    </section>
+
+        <section class="module parallax parallax-3">
+        <div class="container">
+            <h1>Münzserie anlegen</h1>
+        </div>
+    </section>
+
+    <section class="module inhalt">
+        <div class="container">
+            <h2>Anlegen einer Münzserie,eines Material, eines Landes oder Gewicht</h2>
+            <p>
+                Um einen Eintrag in den genannten Bereichen anzulegen, ist in das Textfeld den gewünschten Namen einzutragen und auf
+                das "Häckchen" zu klicken. Falls der Eintrag erfolgreich angelget wurden ist, wird ein "ok" angezeigt.
+            </p>
+        </div>
+    </section>
+
+    <section class="module parallax parallax-4">
+        <div class="container">
+            <h1>Verbindung Münze - Material</h1>
+        </div>
+    </section>
+
+            <section class="module inhalt">
+        <div class="container">
+            <h2>Verbindung von Münze und Material</h2>
+            <p>
+                Auf dieser Website wird der ausgewählten Münze ein bestimmtes Material zugewiesen. Auf der einen Seite lässt sich mithilfe einer
+                Kombobox eine Münze auswählen und auf der anderen Seite das Material.
+                <br><br>
+                <b>Beide Boxen greifen auf die gespeicherten Münzen und
+                Materialien zu.</b><br><br>
+
+                <h3>Erkärung im Bezug zur Datenbankstruktur</h3>
+
+                Durch diese Tabelle kann einer Münze mehrere Materialien zugeteilt werden. Diese Funktion ist für Münzen<br> wie zum Beispiel
+                die 2€ Münzen gedacht. Auf den Bild kann man die Verbindungstabelle in der Datenbank<br> sehen.
+                <img src="verbindungdb.png" class="bild">
+                In der Tabelle stehen nur die IDs der jeweiligen Datensätze. Jeder Zeile hat genua eine v_ma_id. Die<br> zwei nächsten Spalten sind
+                die genauen Zuordnungen. Anhand der MünzID 17 kann man gut erkennen, wie<br> diese Tabelle funktioniert.
+                <br><br><b>Da diese Tabelle
+                    mit vorhandenen Werten arbeitet, ist es wichtig das zuerst die Münze bzw. das Material schon vorher angelegt wurden.
+                </b>
+            </p>
+        </div>
+    </section>
+
+    <a name="hier2"></a>
+    <section class="module parallax parallax-5">
+        <div class="container">
+            <h1>Anzeigen</h1>
+        </div>
+    </section>
+
+        <section class="module inhalt">
+        <div class="container">
+            <p>
+               Das Anzeigen ist der zweite große Teil der Website. Hier können die von Ihnen angelegten Datensätze angesehen, bearbeitet und
+                gelöscht werden.Jede einzelne Untersite wird nochmal gezeigt. Außerdem wird das bearbeiten erklärt.
+            </p>
+        </div>
+    </section>
+
+     <section class="module parallax parallax-6">
+        <div class="container">
+            <h1>Alle Münzen anzeigen</h1>
+        </div>
+    </section>
+
+        <section class="module inhalt">
+        <div class="container">
+            <h2>Anzeigen aller Münzen</h2>
+            <p>
+               Die ganzen Münzen werden in einer großen Tabelle angezeigt. Die Spalten sind die Überschriften für die wichtigsten Informationen
+                wie Bezeichnung und Preis.Das Bild der Münzen wird genau der Bezeichnung der Münze zugeordnet.<br><br>
+                <b>Vorraussetzung ist, dass die Bilder genau wie die Münzen benannt wurden und im png-Format vorliegen. <br>Diese müssen im
+                Ordner Bilder in den Websiteordner gespeichert werden.</b><br><br>
+                <i>Pfad: = "Festplattenverzeichnis:/xammp/htdocs/Muenzen/bilder"</i>
+            </p>
+        </div>
+    </section>
+
+        <section class="module parallax parallax-7">
+        <div class="container">
+            <h1>Bearbeiten</h1>
+        </div>
+    </section>
+
+        <section class="module inhalt">
+        <div class="container">
+            <p>
+               Nachdem Klick auf <a class="editicon"></a> wird man auf eine Seite weitergeleitet, in der man dann den neuen Namen
+                bzw. Wert eintragen kann. Danach klickt man wieder auf <img src="bearbeiten.jpg" class="icon"> um die Änderungen zu speichern.
+            </p>
+        </div>
+    </section>
+
+     <section class="module parallax parallax-8">
+        <div class="container">
+            <h1>Löschen</h1>
+        </div>
+    </section>
+
+        <section class="module inhalt">
+        <div class="container">
+            <p>
+               Beim Klick auf <img src="löschen.jpg" class="icon"> wird der ausgewählte Eintrag gelöscht.
+            </p>
+        </div>
+    </section>
+
+         <section class="module parallax parallax-9">
+        <div class="container">
+            <h1>Münzserien anzeigen</h1>
+        </div>
+    </section>
+
+    <section class="module inhalt">
+        <div class="container">
+            <p>
+                <br><br><br><br>
+            </p>
+        </div>
+    </section>
+
+    <section class="module parallax parallax-10">
+        <div class="container">
+            <h1>Material anzeigen</h1>
+        </div>
+    </section>
+
+    <section class="module inhalt">
+        <div class="container">
+            <p>
+                <br><br><br><br>
+            </p>
+        </div>
+    </section>
+
+    <section class="module parallax parallax-11">
+        <div class="container">
+            <h1>Länder anzeigen</h1>
+        </div>
+    </section>
+
+    <section class="module inhalt">
+        <div class="container">
+            <p>
+                <br><br><br><br>
+            </p>
+        </div>
+    </section>
+
+    <section class="module parallax parallax-12">
+        <div class="container">
+            <h1>Gewicht anzeigen</h1>
+        </div>
+    </section>
+
+    <section class="module inhalt">
+        <div class="container">
+            <p>
+                <br><br><br><br>
+            </p>
+        </div>
+    </section>
+
+    <section class="module parallax parallax-13">
+        <div class="container">
+            <h1>Verbindung Münze - Tabelle</h1>
+        </div>
+    </section>
+
+    <section class="module inhalt">
+        <div class="container">
+            <p>
+                <br><br><br><br>
+            </p>
+        </div>
+    </section>
+
+    <section class="module parallax parallax-14">
+        <div class="container">
+            <h1>Suchen</h1>
+        </div>
+    </section>
+
+    <section class="module inhalt">
+        <div class="container">
+            <p>
+                <h2>Suchen</h2>
+            <nobr>Die Suchefunktion ist im Anzeige- und im Anlegeteil verfügbar. Diese kann aufgerufen werden, in dem mit der Maus über
+                das <a class="searchicon"><b>⌕</b></a> gefahren</nobr> wird. Nachdem das Suchwort eingegeben wurde wird mit einem Klick auf <a class="searchicon"><b>⌕</b></a> die Suchanfrage
+            abgeschickt. Als Ergebnis werden alle Münzen angezeigt,deren Kategorien (Bezeichnung, Preis, Kaufdatum, Gewicht, Wert, Münzserie,
+            Material, Land) den gesuchten Text enthalten.
+            </p>
+        </div>
+    </section>
+
+<a name="hier3"></a>
+    <section class="module parallax parallax">
+        <div class="container">
+            <h1>Geplante Funktionen</h1>
+        </div>
+    </section>
+
+    <section class="module inhalt">
+        <div class="container">
+            <p>
+                <h2>Geplante Funktionen</h2>
+
+            </p>
+        </div>
+    </section>
+</body>
+
+</html>

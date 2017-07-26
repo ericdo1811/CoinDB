@@ -1,0 +1,120 @@
+body
+{
+    background-color: white;
+    font-family: arial;
+      text-align: center;
+}
+
+#table
+{
+    border: 1px collapse white;
+    padding: 10px;
+    width: 200px;
+    margin: auto;
+    text-align: left;
+    
+}
+th
+{
+    background-color: white;
+    color:#009900;
+    width: 5%;
+}
+
+tr
+{
+    background-color: white;
+}
+tr:nth-child(even)
+{
+   /* background-color:#5cd65c;*/
+    border: 0px;
+}
+
+td
+{
+    position: relative;
+    height: 100%;
+    padding: 10px;
+}
+
+#enter
+{
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top:auto;
+    /*left: 60px;*/
+    background-color: white;
+    border: 2px solid #008000;
+    font-size: 20px;
+    font-weight: 900;
+    color:#008000;
+}
+#enter:hover
+{
+    outline: 2px solid #008000;
+}
+
+.select
+{
+    width: 152px;
+}
+
+.text
+{
+    padding:3px;
+    border-top: 5px solid white; 
+    border-bottom: 5px solid #71db71;
+    border-right: 5px solid #71db71;
+    border-left: 5px solid #71db71;
+    outline:none;
+}
+.text:hover
+{
+     border-bottom: 5px solid #2eb72e;
+}
+.text:focus
+{
+    border-bottom: 5px solid #248f24;
+}
+
+.selectv
+{
+    position: absolute;
+    left: 230px;
+    padding:3px;
+    border-top: 5px solid white; 
+    border-bottom: 5px solid #71db71;
+    border-right: 5px solid #71db71;
+    border-left: 5px solid #71db71;
+    width: 165px;
+    outline:none;
+}
+.selectv:hover
+{
+     border-bottom: 5px solid #2eb72e;
+}
+.selectv:focus
+{
+    border-bottom: 5px solid #248f24;
+}
+
+.select
+{
+    padding:3px;
+    border-top: 5px solid white; 
+    border-bottom: 5px solid #71db71;
+    border-right: 5px solid #71db71;
+    border-left: 5px solid #71db71;
+    width: 165px;
+    outline:none;
+}
+.select:hover
+{
+     border-bottom: 5px solid #2eb72e;
+}
+.select:focus
+{
+    border-bottom: 5px solid #248f24;
+}

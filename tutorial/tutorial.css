@@ -1,0 +1,197 @@
+body
+{
+    font-family: arial;
+    background-color: #734d26;
+}
+.container
+{
+    max-width: 960px;
+    margin: 0 auto;
+}
+section.module h2
+{
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+section.module p
+{
+    margin-bottom: 40px;
+    font-size: 16px;
+    font-weight: 300;
+}
+section.module.parallax
+{
+    height: 600px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+
+}
+section.module.inhalt
+{
+    margin-top: 40px;
+    padding: 40px;
+    background-color: white;
+    opacity: 0.8;
+}
+section.module.parallax h1
+{
+    color:#d9d9d9;
+    line-height: 600px;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+section.module.parallax-1
+{
+    background-image: url("Anlegen.png");
+    background-size: 890px 520px;
+}
+section.module.parallax-2
+{
+    background-image: url("muenzanlegen.png");
+    background-size: 890px 520px;
+}
+section.module.parallax-3
+{
+    background-image: url("muenzserieanlegen.png");
+    background-size: 890px 520px;
+}
+
+section.module.parallax-4
+{
+    background-image: url("ver_mu_ma.png");
+    background-size: 890px 520px;
+}
+
+section.module.parallax-5
+{
+    background-image: url("anzeigen.png");
+    background-size: 890px 520px;
+}
+
+section.module.parallax-6
+{
+    background-image: url("allemuenzen.png");
+    background-size: 890px 520px;
+}
+
+section.module.parallax-7
+{
+    background-image: url("bearbeiten.png");
+    background-size: 890px 520px;
+}
+
+section.module.parallax-8
+{
+    background-image: url("loeschen.png");
+    background-size: 890px 550px;
+}
+
+section.module.parallax-9
+{
+    background-image: url("muenzsereinanzeigen.png");
+    background-size: 890px 550px;
+}
+
+section.module.parallax-10
+{
+    background-image: url("materialanzeigen.png");
+    background-size: 890px 550px;
+}
+
+section.module.parallax-11
+{
+    background-image: url("landanzeigen.png");
+    background-size: 890px 550px;
+}
+
+section.module.parallax-12
+{
+    background-image: url("gewichtanzeigen.png");
+    background-size: 890px 550px;
+}
+
+section.module.parallax-13
+{
+    background-image: url("ver_mu_maanzeigen.png");
+    background-size: 890px 550px;
+}
+
+section.module.parallax-14
+{
+    background-image: url("suche.png");
+    background-size: 890px 550px;
+}
+.button
+{
+    outline: 0px;
+    top:55%;
+    height: 50px;
+    margin: 0px;
+    background-color: #734d26;
+    border: 3px solid #d9d9d9;
+}
+.button:hover
+{
+    background-color: #d9d9d9;
+}
+.button:hover .text
+{
+    color: #734d26;
+}
+
+.searchicon
+{
+  font-size: 1.3em;
+}
+#anzeigen
+{
+    position: absolute;
+    left: 35%;
+}
+#anlegen
+{
+    position: absolute;
+    left: 5%;
+}
+#funktionen
+{
+    position: absolute;
+    right: 5%;
+}
+.text
+{
+    text-decoration: none;
+    color:#d9d9d9;
+    font-size: 40px;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.bild
+{
+    position: absolute;
+    opacity: 1;
+    background-color: white;
+    float: right;
+    right: 30px;
+    bottom: -4000px;
+}
+.icon
+{
+    bottom: -12px;
+    position:relative;
+    height: 40px;
+}
+#bestaetigen
+{
+    position: absolute;
+    left: 40%;
+}
+#bestaetigendiv
+{
+    height: 200px;
+}
